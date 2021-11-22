@@ -1,0 +1,22 @@
+{
+  "name": "ushironoko-ui-components",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "tsc": "vue-tsc --noEmit",
+    "build": "npm run tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "autoprefix": "^1.0.1",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.4",
+    "vue-tsc": "^0.3.0"
+  }
+}
